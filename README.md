@@ -1,86 +1,38 @@
-# Sprint 3 IT Academy | Video management tool
+# 1.2-Bootstrap-i-SASS-Nivell3
 
-## Introduction
+# 📄 Descripció - Enunciat de l'exercici
 
-A company in the audiovisual sector has asked us for a web application that will allow their employees to quickly find movies from a large database they have, since the process is currently done manually.
+L'objectiu d'aquest projecte és crear i passar sense cap error una sèrie de tests relacionats amb la gestió d'una base de dades de pel·lícules.
 
-You will be in charge of setting up the core of the application: all the logic of filtering and sorting of movies. You have 2 weeks to finish, which is how long this sprint lasts.
+---
 
-<br>
+## 💻 Tecnologies Utilitzades
 
-## Requirements
+- JS
+- Jest
 
+---
 
-1. Clone this repo
-```bash
-$ git clone https://github.com/IT-Academy-BCN/starter-code-frontend-sprint-3-movies
-```
+## 📋 Requisits
 
-2. Unlink your repo from the itacademy repository
-```bash
-$ git remote rm origin
-```
+Per a executar aquest projecte, es necessita:
+- Un navegador web modern com Chrome
+- Un editor de codi com Visual Studio Code
 
-3. Link your repo to the repository you have to create in your github account
-```bash
-$ git remote add origin <your repo name!>
-```
+---
 
-<br>
+## 🛠️ Instal·lació
 
-## Submission
+1. Clonar aquest repositori o descarregar els fitxers:  
+   ```sh
+   git clone <URL_DEL_REPOSITORI>
+   ```  
+2. Obrir la carpeta del projecte en el teu editor de codi.  
+3. Si es vol utilitzar Live Server, instal·lar l'extensió corresponent a VS Code.  
 
-1. Upon completion, run the following commands:
+---
 
-```bash
-$ git add .
-$ git commit -m "Sprint Solution"
-$ git push origin master
-```
+## ▶️ Execució
 
-2. Create Pull Request.
-
-3. Upload the link to the virtual campus so that your mentor can correct it and give you feedback.
-
-
-
-<br>
-
-## Introduction
-
-The statement of the exercise is available on the virtual campus.
-
-<br>
-
-## Tests!
-
-
-```shell
-$ npm install
-$ npm run test:watch
-```
-
-And last, open the generated `test-results.html` file with the "Live Server" VSCode extension to see test results.
-
-Apart from the statement, you will know exactly what you are asked to do by looking at the file `tests/films.spec.js`, all tests are already defined here!
-
-<br>
-
-## Instructions
-
-You have the following indications from the frontend responsible:
-
-- It is mandatory to implement all loops in ES6 (using map, reduce, filter and sort to manipulate arrays).
-
-- As at the moment we don't consume data from a server using an API, we will work with data from the src/data.js archive. For the moment we will implement the logic using
-an array of information about 250 movies.
-
-- The implementation is about processing this array of movies, to display it as requested in each exercise.
-
-- The logic to implement will be placed in the src/films.js file.
-
-- You don't need to show the result of each function on the screen. Your goal is to pass the tests.  More information on how to program oriented to pass tests at the end of the document.
-
-- Don't forget to include the capture of the test results in the virtual campus.
-
-
+1. Obrir el fitxer `index.html` en el navegador web.  
+2. Si es fa servir Live Server, iniciar-lo des de l'editor de codi per a veure els canvis en temps real.
